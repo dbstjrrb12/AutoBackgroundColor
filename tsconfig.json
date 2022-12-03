@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "target": "es5",
+    "baseUrl": "./src",
+    "paths": {
+      "@type/*": ["./@type/*"],
+      "@asset/*": ["./asset/*"],
+      "@components/*": ["./components/*"],
+      "@api/*": ["./lib/api/*"],
+      "@hook/*": ["./lib/hook/*"],
+      "@pages/*": ["./pages/*"],
+      "@recoils/*": ["./recoils/*"],
+      "@lib/*": ["./lib/*"],
+      "@mocks/*": ["./mocks/*"],
+      "@routes/*": ["./routes/*"]
+    },
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "typeRoots": ["./node_modules/@types"],
+    "sourceMap": true
+  },
+  "include": ["src"]
+}
